@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home</title>
+    <!-- url -->
+
+    <!-- <base href="http://Aditi_Bloxd.com" /> -->
+
+    <!-- url -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Electrolize&family=Michroma&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- url -->
+
+    <!-- <base href="http://Aditi_Bloxd.com" /> -->
+
+    <!-- url -->
+  </head>
+  <body
+    style="
+      background-image: url(https://www.icegif.com/wp-content/uploads/2023/03/icegif-875.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <div class="header">
+      <a href="index.html" style="color: rgb(250, 145, 201)"> TO MAMI </a>
+    </div>
+
+    <!-- navbar -->
+    <div class="">
+      <nav>
+        <ul>
+          <li>
+            <a href="snowindex.html"> LET IT SNOW! </a>
+          </li>
+          <li>
+            <a class="mailchat" href="mailto:aditischool27@gmail.com"
+              >E-Mail to Aditi</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- my profile -->
+    <div class="profile"></div>
+    <div class="buttons">
+      <button class="chatbtn">
+        <a class="mailchat">GO DOWN⬇</a>
+      </button>
+    </div>
+
+    <div class="chatmain">
+      <!-- CHAT AI -->
+
+      <div class="chat-container">
+        <div class="chat-header">
+          <h2>Wellness Chatbot</h2>
+          <p>I'm here to make you feel better. Let's chat!</p>
+        </div>
+        <div class="chat-box" id="chat-box">
+          <!-- Messages will appear here -->
+        </div>
+        <div class="chat-input">
+          <input
+            type="text"
+            id="user-input"
+            placeholder="Type your message..."
+          />
+          <button onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
