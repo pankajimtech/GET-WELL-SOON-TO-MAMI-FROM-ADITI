@@ -6,6 +6,8 @@ const responses = {
   "feel sad":
     "I'm really sorry you're feeling this way. Remember, you're not alone. Take a deep breath, everything will be okay. 💚",
   "thank you": "You're very welcome! I'm here for you anytime. 💖",
+    "good":
+    "Great! 💚",
   bye: "Goodbye! Take care and be kind to yourself. 🌟",
 };
 
